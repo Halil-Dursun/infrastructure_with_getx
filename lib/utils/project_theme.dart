@@ -6,6 +6,7 @@ import 'package:local_project/utils/project_colors.dart';
 class ProjectThemes{
   static ThemeData projectDarkTheme = ThemeData.dark().copyWith(
     appBarTheme: const AppBarTheme(
+      backgroundColor: ProjectColor.blackColor,
       centerTitle: true,
       elevation: 0,
     ),

@@ -16,4 +16,9 @@ class ProjectGetStorage{
   }
 
   bool get themeIsDark => box.read("theme") ?? false;
+
+  Future<void> isFirstOpenWrite() async{
+    await box.write("isFirstOpen", false);
+  }
+  bool get isFirstOpen => box.read("isFirstOpen") ?? true;
 }

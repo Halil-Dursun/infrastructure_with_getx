@@ -11,4 +11,8 @@ class ProjectColor{
   static const Color blueGreyColor = Colors.blueGrey;
   static const Color blackColor = Colors.black;
   static const Color darkBlueColor = Color(0xff0a10b4);
+
+  static const Color redColor = Colors.red;
+
+  static const Color cardColor = Color(0xff3998c6);
 }

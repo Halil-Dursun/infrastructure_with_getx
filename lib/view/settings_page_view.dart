@@ -40,13 +40,13 @@ class _SettingsPageState extends State<SettingsPage> {
                 Container(
                   height: Get.height,
                   width: Get.width,
-                  decoration: const BoxDecoration(
+                  decoration: const  BoxDecoration(
                       gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                   colors: [
-                    ProjectColor.greenColor,
                     ProjectColor.cyanColor,
+                    ProjectColor.greenColor,
                   ])),
                 ),
                 Align(

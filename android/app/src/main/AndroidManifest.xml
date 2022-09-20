@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.local_project">
    <application
-        android:label="local_project"
+        android:label="Manage Task Wallet"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
